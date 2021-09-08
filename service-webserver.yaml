@@ -4,7 +4,7 @@ metadata:
   labels:
     run: nginx
   name: webserver-service
-  namespace: default
+  namespace: prod
 spec:
   ports:
   # por padrão o targerport é defenido como mesmo valor de port
